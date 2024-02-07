@@ -5,18 +5,18 @@ A [Prettier](https://prettier.io) configuration based on the Ontario Frontend Ja
 ## Installation
 
 ```sh
-npm install prettier-config-ontario --save-dev
+npm install @ontario-digital-service/prettier-config-ontario --save-dev
 ```
 
 or
 
 ```sh
-yarn add prettier-config-ontario --dev
+yarn add @ontario-digital-service/prettier-config-ontario --dev
 ```
 
 ## Usage
 
-Create a `.prettierrc.json` file in your project root directory with a value:
+Create a `.prettierrc` file in your project root directory with a value:
 
 ```json
 "prettier-config-ontario"
@@ -26,7 +26,7 @@ If you need to overwrite some properties, create a `.prettierrc.js` file in your
 
 ```javascript
 module.exports = {
-  ...require('prettier-config-ontario'),
+  ...require('@ontario-digital-service/prettier-config-ontario'),
   printWidth: 120,
 };
 ```
