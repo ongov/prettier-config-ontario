@@ -1,6 +1,6 @@
 {
     "name": "@ontario-digital-service/prettier-config-ontario",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "prettier": "@ontario-digital-service/prettier-config-ontario",
     "description": "Prettier configuration based on Ontario Frontend's coding standards",
     "keywords": [
